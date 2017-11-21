@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/wrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" id="fusion-style-css" href="css/style.css" type="text/css" media="all">
+		<div class="fit-vids-style">­
+			<style>
+				.fluid-width-video-wrapper {
+					width: 100%;
+					position: relative;
+					padding: 0;
+				}
+				
+				.fluid-width-video-wrapper iframe,
+				.fluid-width-video-wrapper object,
+				.fluid-width-video-wrapper embed {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+				}
+			</style>
+		</div>
+		<style type="text/css">
+			canvas {
+				//opacity: 0.5;
+			}
+			
+			#canvas {
+				position: relative;
+				z-index: 1;
+				margin: 0 auto;
+			}
+			
+			#section5 {
+				position: absolute;
+				left: 0px;
+				z-index: 222;
+			}
+		</style>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/jquery.fullPage.min.js"></script>
+		<script src="js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+		<!--滚动监听 开始-->
+		<script>
+			$(function() {
+				$('#dowebok').fullpage({
+					/*sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90','#f00'],*/
+					anchors: ['page1', 'page2', 'page3', 'page4', 'page5'],
+					menu: '#menu'
+				});
+			});
+		</script>
+		<!--滚动监听 结束-->
+	</head>
+	<body class="home blog et_frontend_customizer gecko et_includes_sidebar">
+		<!--导航 开始-->
+		<div id="menu-box">
+			<ul id="menu">
+				<li data-menuanchor="page1" class="active">
+					<a href="#page1">首页</a>
+				</li>
+				<li data-menuanchor="page2">
+					<a href="#page2">关于我</a>
+				</li>
+				<li data-menuanchor="page3">
+					<a href="#page3">技术掌握</a>
+				</li>
+				<li data-menuanchor="page4">
+					<a href="#page4">项目经验</a>
+				</li>
+				<li data-menuanchor="page5">
+					<a href="#page5">联系我</a>
+				</li>
+			</ul>
+		</div>
+		<!--导航 结束-->
+		
+		<div id="dowebok">
+			<!--首页 开始-->
+			<div class="section" id="section1">
+				<div class="container1">
+					<h2>技术永无止境<br /> 
+						<!--zoomin/fadein
+							fadeInUp
+						slideInUp-->
+						绝美险尤在险峰<br />
+						坚韧执着   刻苦钻研<br /> 
+						逐梦的脚步<br /> 
+						永不停息<br />
+						...    
+					</h2>
+					<p>一个前端开发工程师的心语</p>
+				</div>
+			</div>
+			<!--首页 结束-->
+			
+			<!--关于我 开始-->
+			<div class="section" id="section2">
+				<div class="container2">
+					<h2>关&nbsp;于&nbsp;我</h2>
+					<section id="set-8">
+						<div class="hi-icon-wrap hi-icon-effect-8">
+							<a href="#set-8" class="hi-icon">
+								<img src="images/wo.jpg" />
+							</a>
+						</div>
+					</section>
+					<p>我叫孙美琴，20岁，坐标北京，是一名前端工程师。<br /> 吃苦耐劳，工作认真，能很快适应新环境，处事冷静，学习能力较强，
+						<br /> 对自己要求严格，条理性强，善于整理，具有良好的团队精神和较强的组织能力！
+					</p>
+				</div>
+			</div>
+			<!--关于我 结束-->
+			
+			<!--技术掌握 开始-->
+			<div class="section" id="section3">
+				<div class="container3">
+					<h2>技&nbsp;术&nbsp;掌&nbsp;握</h2>
+					<p>前端的知识面非常广泛,吃透它需要具有持之以恒的精神。而在前端开发的学习工作中，重中之重就是对于<br /> 原生javascript的理解和把握，从而在此基础上学习新的框架
+						<br /> （jQuery、BootStrap、Vue等）
+					</p>
+					<div class="wrapper">
+						<div class="cols">
+							<div class="col" ontouchstart="this.classList.toggle('hover');">
+								<div class="container">
+									<div class="front" style="background: #848a97;">
+										<div class="inner">
+											<img class="skillbg" src="images/skill/html5.png" />
+											<span>HTML</span>
+											<img class="dolphin" src="images/skill/dolphin.png" />
+										</div>
+									</div>
+									<div class="back">
+										<div class="inner">
+											<ul>
+												<li><a href="#">深刻理解web标准 </a></li>
+												<li><a href="#">熟练运用html标签  </a></li>
+												<li><a href="#">掌握html5如 canvas,localStorage, navigotar等新特性  </a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col" ontouchstart="this.classList.toggle('hover');">
+								<div class="container">
+									<div class="front" style="background: #848a97;">
+										<div class="inner">
+											<img class="skillbg" src="images/skill/css3.png" />
+											<span>CSS</span>
+											<img class="dolphin" src="images/skill/dolphin.png" />
+										</div>
+									</div>
+									<div class="back">
+										<div class="inner">
+											<ul>
+												<li><a href="#">熟练运用css及css3 新属性  </a></li>
+												<li><a href="#">注重浏览器兼容性， 熟悉常见的css  hack（兼容至IE8） </a></li>
+												<li><a href="#">掌握@keyframes 制作动画效果 </a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col" ontouchstart="this.classList.toggle('hover');">
+								<div class="container">
+									<div class="front" style="background: #848a97;">
+										<div class="inner">
+											<img class="skillbg" src="images/skill/js.png" />
+											<span>JavaScript</span>
+											<img class="dolphin" src="images/skill/dolphin.png" />
+										</div>
+									</div>
+									<div class="back">
+										<div class="inner">
+											<ul>
+												<li><a href="#">掌握原生JS的编程  </a></li>
+												<li><a href="#">注重JavaScript性能 优化   </a></li>
+												<li><a href="#">熟练运用jQuery.js   </a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col" ontouchstart="this.classList.toggle('hover');">
+								<div class="container">
+									<div class="front" style="background: #848a97;">
+										<div class="inner">
+											<img class="skillbg" src="images/skill/Ajax.png" />
+											<span>Ajax</span>
+											<img class="dolphin" src="images/skill/dolphin.png" />
+										</div>
+									</div>
+									<div class="back">
+										<div class="inner">
+											<ul>
+												<li><a href="#">可以处理服务器返回的数据,根据数据的内容来进行不同的交互操作。</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col" ontouchstart="this.classList.toggle('hover');">
+								<div class="container">
+									<div class="front" style="background: #848a97;">
+										<div class="inner">
+											<img class="skillbg" src="images/skill/bootstrap.png" />
+											<span>BootStrap</span>
+											<img class="dolphin" src="images/skill/dolphin.png" />
+										</div>
+									</div>
+									<div class="back">
+										<div class="inner">
+											<ul>
+												<li><a href="#">熟悉Bootstrap样式 和组件的书写  </a></li>
+												<li><a href="#">熟练运用其处理响应 式页面   </a></li>
+												<li><a href="#">明白媒体查询的原理 并灵活运用   </a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col" ontouchstart="this.classList.toggle('hover');">
+								<div class="container">
+									<div class="front" style="background: #848a97;">
+										<div class="inner">
+											<img class="skillbg" src="images/skill/vue.png" />
+											<span>Vue.js</span>
+											<img class="dolphin" src="images/skill/dolphin.png" />
+										</div>
+									</div>
+									<div class="back">
+										<div class="inner">
+											<ul>
+												<li><a href="#">熟悉vue、iView框架以及underscore，lodash工具集； </a></li>
+												<li><a href="#">熟练npm、webpack、seajs、grunt相关技术  </a></li>
+												<li><a href="#">正在深入学习ES6  </a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--技术掌握 结束-->
+			
+			<!--项目经验 开始-->
+			<div class="section" id="section4">
+				<div class="container4">
+					<h2>项&nbsp;目&nbsp;经&nbsp;验</h2>
+					<p>精通HTML、CSS3、JS，能够手工编写动态效果, 熟悉多种浏览器兼容性问题的解决。</p>
+					<div id="et-slider-wrapper" class=" et_slider_auto et_slider_speed_7000">
+
+						<div id="et-slides">
+
+							<div class="et-slide">
+
+								<div class="container clearfix">
+
+									<div class="description">
+
+										<!--<h2>
+
+					<a href="http://www.jq22.com/demo/jquery-hdp-150428201054/#">
+
+					The Future Is here</a></h2>
+
+										<p class="subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
+
+										<p>Nulla ornare, nulla et egestas hendrerit, ipsum dui vulputate dolor, et ornare orci erat eleifend pede. Fusce eros libero, vestibulum non, elementum eu, suscipit eget, leo. Donec...</p>
+
+										<a href="http://www.jq22.com/demo/jquery-hdp-150428201054/#" class="more">
+
+					sign up today </a>-->
+										<p><span>项目名称：</span>景秀教育</p>
+										<p><span>项目描述：</span>该项目是景秀教育的招生官网，在开发的过程中运用了原生响应式，在PC端、IPAD端及手机上正常运行无bug，在各个设备的屏幕上有不同的排版风格，并且兼容各大主流浏览器。</p>
+										<p><span>责任描述：</span><br />
+											1.根据产品需求和UI效果图基于HTML标准和JavaScript进行页面制作；<br />
+											2.结合HTML5+CSS3的技能完成该响应式网站的布局；<br />
+											3.利用JS、jQuery实现前后端数据的交互和网页动态交互；<br />
+											4.检测网页在不同平台上的展示情况，调整兼容，修改bug，保证各浏览器兼容性和执行效率。
+										</p>
+									</div>
+
+									<!-- .description -->
+
+									<div class="featured-image">
+
+										<a href="http://www.zgcxueyuan.com/index.html">
+
+											<img src="images/xm1.png" alt="The Future Is here" width="535" height="400"></a>
+
+									</div>
+
+									<!-- .featured-image -->
+								</div>
+
+								<!-- .container -->
+							</div>
+
+							<!-- .et-slide -->
+
+							<div class="et-slide">
+
+								<div class="container clearfix">
+
+									<div class="description">
+
+										<!--<h2>
+
+					<a href="http://www.jq22.com/demo/jquery-hdp-150428201054/#">
+
+					Affordable Pricing</a></h2>
+
+										<p class="subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
+
+										<p>Maecenas lacinia tortor rhoncus dolor mollis ullamcorper sagittis purus faucibus. Duis urna sem, egestas quis aliquam sed, fringilla imperdiet urna. Sed gravida mauris eu massa...</p>
+
+										<a href="http://www.jq22.com/demo/jquery-hdp-150428201054/#" class="more">
+
+					sign up today </a>-->
+										<p><span>项目名称：</span>宾利汽车中国官网</p>
+										<p><span>项目描述：</span>该项目是宾利汽车中国官网，在开发的过程中运用了运用 HTML5 / CSS3  精准地将设计图转化为符合 W3C 规范的静态页面，并用JS、jQuery等实现网站的交互效果开发，及具体页面功能特效的实现。</p>
+										<p><span>责任描述：</span><br />
+											1.协助UI设计师进行页面设计，确定页面风格；<br />
+											2.运用 PhotoShop高效率经传切图，HTML5/CSS3 高效地将设计图转化为符合 W3C 规范的静态页面；<br />
+											3.用JavaScript 和 jQuery实现网站的交互效果开发，及具体页面功能特 效的实现。<br />
+											4.解决主流浏览器及版本的兼容性问题，保证页面支持多浏览器使用。
+										</p>
+									</div>
+
+									<!-- .description -->
+
+									<div class="featured-image">
+
+										<a href="https://china.bentleymotors.com/">
+
+											<img src="images/xm2.png" alt="Affordable Pricing" width="535" height="400"></a>
+
+									</div>
+
+									<!-- .featured-image -->
+								</div>
+
+								<!-- .container -->
+							</div>
+
+							<!-- .et-slide -->
+
+							<div class="et-slide">
+
+								<div class="container clearfix">
+
+									<div class="description">
+
+										<!--<h2>
+
+					<a href="http://www.jq22.com/demo/jquery-hdp-150428201054/#">
+
+					Customer Support</a></h2>
+
+										<p class="subtitle">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
+
+										<p>Nulla ornare, nulla et egestas hendrerit, ipsum dui vulputate dolor, et ornare orci erat eleifend pede. Fusce eros libero, vestibulum non, elementum eu, suscipit eget, leo. Donec...</p>
+
+										<a href="http://www.jq22.com/demo/jquery-hdp-150428201054/#" class="more">
+
+					sign up today </a>-->
+										<p><span>项目名称：</span>萝卜特甜官网</p>
+										<p><span>项目描述：</span>南京萝卜特甜信息科技有限公司成立于2015年，是国内较早从事VR+地产解决方案技术研发与应用服务的技术型企业。全站使用BootStrap完成，PC端、IPAD端及手机上正常运行无bug、兼容各大主流浏览器。</p>
+										<p><span>责任描述：</span><br />	
+											1.根据产品需求和UI 效果图基于HTML标准和JavaScript进行页面制作；<br />			  
+											2.结合HTML5+CSS3、BooStrap的技能完成该响应式网站的布局；<br />	
+											3.利用JS、jQuery实现前后端数据的交互和网页动态交互；<br />	
+											4.优化网页代码，解决不同浏览器及不同版本的兼容性问题，提高网站性能。
+										</p>
+									</div>
+
+									<!-- .description -->
+
+									<div class="featured-image">
+
+										<a href="http://www.luobotetian.com/">
+
+											<img src="images/xm3.png" alt="Customer Support" width="535" height="400"></a>
+
+									</div>
+
+									<!-- .featured-image -->
+								</div>
+
+								<!-- .container -->
+							</div>
+
+							<!-- .et-slide -->
+						</div>
+
+						<!-- #et-slides -->
+						<!--<div id="et-slider-controls">
+							<div class="container">
+								<div class="et-controllers">
+									<a href="http://www.jq22.com/demo/jquery-hdp-150428201054/#" class="et-active-control">1</a>
+									<a href="http://www.jq22.com/demo/jquery-hdp-150428201054/#" class="">2</a>
+									<a href="http://www.jq22.com/demo/jquery-hdp-150428201054/#" class="">3</a></div>
+							</div>
+						</div>-->
+						<div class="et-slider-arrows">
+							<a class="et-arrow-prev" href="http://www.jq22.com/demo/jquery-hdp-150428201054/#">Previous</a>
+							<a class="et-arrow-next" href="http://www.jq22.com/demo/jquery-hdp-150428201054/#">Next</a>
+						</div>
+					</div>
+
+					<!-- #et-slider-wrapper -->
+
+					<script type="text/javascript" src="js/superfish.js"></script>
+
+					<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+
+					<script type="text/javascript" src="js/custom.js"></script>
+
+					<script type="text/javascript" src="js/modernizr.js"></script>
+
+				</div>
+			</div>
+			<!--项目经验 结束-->
+			
+			<!--联系我 开始-->
+			<div class="section" id="section5">
+				<div class="container5">
+					<h2>联&nbsp;系&nbsp;我</h2>
+					<ul class="intro clearfix">
+						<li><a href="#">灵感</a></li>
+						<li><a href="#">代码</a></li>
+						<li><a href="#">梦想</a></li>
+						<li><a href="#">未来</a></li>
+					</ul>
+					<p>注重效率，偏爱敏捷开发</p>
+					<p>喜欢尝试，期待新鲜事物</p>
+					<p>前端即兴趣，兴趣即未来</p>
+					<p>行路有良友，便是捷径</p>
+					<p>带上我吧，一起看到更大的世界</p>
+					<ul class="contact">
+						<li><img src="images/github.png" /></li>
+						<li><img src="images/xinxi.png" /></li>
+						<li><img src="images/weixin.png" /></li>
+						<li><img src="images/weibo.png" /></li>
+						<li><img src="images/zhihu.png" /></li>
+					</ul>
+				</div>
+			</div>
+			<!--联系我 结束-->
+				
+			<!--canvas 星空-->
+			<canvas id="canvas" width="1920" height="699"></canvas>
+		</div>
+		<!--canvas 星空 开始-->
+		<script>
+			"use strict";
+			var canvas = document.getElementById('canvas'),
+				ctx = canvas.getContext('2d'),
+				w = canvas.width = window.innerWidth,
+				h = canvas.height = window.innerHeight,
+				hue = 217,
+				stars = [],
+				count = 0,
+				maxStars = 1200;
+			var canvas2 = document.createElement('canvas'),
+				ctx2 = canvas2.getContext('2d');
+			canvas2.width = 100;
+			canvas2.height = 100;
+			var half = canvas2.width / 2,
+				gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
+			gradient2.addColorStop(0.025, '#fff');
+			gradient2.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
+			gradient2.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
+			gradient2.addColorStop(1, 'transparent');
+			ctx2.fillStyle = gradient2;
+			ctx2.beginPath();
+			ctx2.arc(half, half, half, 0, Math.PI * 2);
+			ctx2.fill();
+			// End cache
+			function random(min, max) {
+				if (arguments.length < 2) {
+					max = min;
+					min = 0;
+				}
+				if (min > max) {
+					var hold = max;
+					max = min;
+					min = hold;
+				}
+				return Math.floor(Math.random() * (max - min + 1)) + min;
+			}
+
+			function maxOrbit(x, y) {
+				var max = Math.max(x, y),
+					diameter = Math.round(Math.sqrt(max * max + max * max));
+				return diameter / 2;
+			}
+			var Star = function() {
+				this.orbitRadius = random(maxOrbit(w, h));
+				this.radius = random(60, this.orbitRadius) / 12;
+				this.orbitX = w / 2;
+				this.orbitY = h / 2;
+				this.timePassed = random(0, maxStars);
+				this.speed = random(this.orbitRadius) / 900000;
+				this.alpha = random(2, 10) / 10;
+				count++;
+				stars[count] = this;
+			}
+			Star.prototype.draw = function() {
+				var x = Math.sin(this.timePassed) * this.orbitRadius + this.orbitX,
+					y = Math.cos(this.timePassed) * this.orbitRadius + this.orbitY,
+					twinkle = random(10);
+				if (twinkle === 1 && this.alpha > 0) {
+					this.alpha -= 0.05;
+				} else if (twinkle === 2 && this.alpha < 1) {
+					this.alpha += 0.05;
+				}
+				ctx.globalAlpha = this.alpha;
+				ctx.drawImage(canvas2, x - this.radius / 2, y - this.radius / 2, this.radius, this.radius);
+				this.timePassed += this.speed;
+			}
+			for (var i = 0; i < maxStars; i++) {
+				new Star();
+			}
+
+			function animation() {
+				ctx.globalCompositeOperation = 'source-over';
+				ctx.globalAlpha = 0.8;
+				ctx.fillStyle = 'hsla(' + hue + ', 64%, 6%, 1)';
+				ctx.fillRect(0, 0, w, h)
+				ctx.globalCompositeOperation = 'lighter';
+				for (var i = 1, l = stars.length; i < l; i++) {
+					stars[i].draw();
+				};
+				window.requestAnimationFrame(animation);
+			}
+			animation();
+		</script>
+		<!--canvas 星空 结束-->
+	</body>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	
+	<!--关于我 图片hover 开始-->
+	<!--<script>
+		var hash = window.location.hash,
+			current = 0,
+			demos = Array.prototype.slice.call(document.querySelectorAll('#codrops-demos > a'));
+		if (hash === '') hash = '#set-1';
+		setDemo(demos[parseInt(hash.match(/#set-(\d+)/)[1]) - 1]);
+		demos.forEach(function(el, i) {
+			el.addEventListener('click', function() {
+				setDemo(this);
+			});
+		});
+
+		function setDemo(el) {
+			var idx = demos.indexOf(el);
+			if (current !== idx) {
+				var currentDemo = demos[current];
+				currentDemo.className = currentDemo.className.replace(new RegExp("(^|\\s+)" + 'current-demo' + "(\\s+|$)"), ' ');
+			}
+			current = idx;
+			el.className = 'current-demo';
+		}
+	</script>-->
+	<!--关于我 图片hover 结束-->
+</html>
